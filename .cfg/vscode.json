@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "none",
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "window.restoreWindows": "none",
+    "editor.tabSize": 4,
+    "git.confirmSync": false
+}
