@@ -1,42 +1,30 @@
+
 <h3 align="center">
- <img src="https://avatars.githubusercontent.com/u/1778670?v=4" width="100" alt="Logo"/><br/>
+ <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b0b8e2ee-cb7a-4ca6-84cc-3fc92b7b1635/dfo81f9-234ff8bc-c669-42b4-93b8-43269a4ad4ee.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IwYjhlMmVlLWNiN2EtNGNhNi04NGNjLTNmYzkyYjdiMTYzNVwvZGZvODFmOS0yMzRmZjhiYy1jNjY5LTQyYjQtOTNiOC00MzI2OWE0YWQ0ZWUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I9pMusfLCa2kJqRsKXlxyOHL19RQ1T_R8sqZjEOufo4" width="100" alt="Logo"/>
+ <br/>
  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
- Dotfiles for <a href="https://github.com/khaneliman">Khaneliman</a>
+ J@mOs
  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
- <a href="https://github.com/khaneliman/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/khaneliman/dotfiles?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
- <a href="https://github.com/khaneliman/dotfiles/commits"><img src="https://img.shields.io/github/last-commit/khaneliman/dotfiles?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
- <a href="https://github.com/khaneliman/dotfiles/contributors"><img src="https://img.shields.io/github/contributors/khaneliman/dotfiles?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+ <a href="https://github.com/JamesHusband/jamos/contributors"><img src="https://img.shields.io/github/contributors/JamesHusband/jamos?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-Personal dotfiles for each of the platforms I own or have customized. Personal information is either redacted or encrypted with [Git-Crypt](https://github.com/AGWA/git-crypt). Recommend pairing my SDDM theme with this setup. It can be found [here](https://github.com/khaneliman/sddm-catppuccin) or directly from the AUR [here](https://aur.archlinux.org/packages/sddm-catppuccin-git).
-
-## I've migrated all my personal machines to use my new Nix based repo config [KhaneliNix](https://github.com/khaneliman/khanelinix) since it can manage the installation location and dependencies easier than custom scripts to manage for everything. This repo is basically frozen in time with the occasional submodule update and might just archive the main branch and replace the nix config in this repo. 
-
-
-
-<h1>JAM-OS</h1>
-<p>System and dotfile manager</p>
-
-<h4> <span> · </span> <a href="https://github.com/JamesHusband/jamos/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/JamesHusband/jamos/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/JamesHusband/jamos/issues"> Request Feature </a> </h4>
-
-
-</div>
+<p align="center">
+Personal dotfiles for each of the platforms I own or have customized.
+</p>
 
 # :notebook_with_decorative_cover: Table of Contents
-
 - [About the Project](#star2-about-the-project)
-- [Acknowledgements](#gem-acknowledgements)
+- [Resources](#gem-resources)
 
 
 ## :star2: About the Project
 
-## :gem: Acknowledgements
+## :gem: Resources
 
-Use this section to mention useful resources and libraries that you have used in your projects.
-
+Resources and libraries I am using.
 
 - [khanelinix](https://github.com/khaneliman/khanelinix)
 - [khaneliman](https://github.com/khaneliman/dotfiles)
