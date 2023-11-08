@@ -1,6 +1,21 @@
-<div align='center'>
+<h3 align="center">
+ <img src="https://avatars.githubusercontent.com/u/1778670?v=4" width="100" alt="Logo"/><br/>
+ <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+ Dotfiles for <a href="https://github.com/khaneliman">Khaneliman</a>
+ <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+</h3>
 
-<img src=https://media.istockphoto.com/id/903585158/vector/user-files-concept.jpg?s=612x612&w=0&k=20&c=D8kQ_Ha9IT1B5ZTjrQyoQw2RYRIeYvp_CSpH5JcsLNA= alt="logo" width=300 height=297 />
+<p align="center">
+ <a href="https://github.com/khaneliman/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/khaneliman/dotfiles?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+ <a href="https://github.com/khaneliman/dotfiles/commits"><img src="https://img.shields.io/github/last-commit/khaneliman/dotfiles?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+ <a href="https://github.com/khaneliman/dotfiles/contributors"><img src="https://img.shields.io/github/contributors/khaneliman/dotfiles?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+</p>
+
+Personal dotfiles for each of the platforms I own or have customized. Personal information is either redacted or encrypted with [Git-Crypt](https://github.com/AGWA/git-crypt). Recommend pairing my SDDM theme with this setup. It can be found [here](https://github.com/khaneliman/sddm-catppuccin) or directly from the AUR [here](https://aur.archlinux.org/packages/sddm-catppuccin-git).
+
+## I've migrated all my personal machines to use my new Nix based repo config [KhaneliNix](https://github.com/khaneliman/khanelinix) since it can manage the installation location and dependencies easier than custom scripts to manage for everything. This repo is basically frozen in time with the occasional submodule update and might just archive the main branch and replace the nix config in this repo. 
+
+
 
 <h1>JAM-OS</h1>
 <p>System and dotfile manager</p>
