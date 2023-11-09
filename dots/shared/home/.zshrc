@@ -51,7 +51,7 @@ colorize colored-man-pages brew 1password)
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
-# zsh completions 
+# zsh completions
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
 
@@ -59,10 +59,10 @@ if type brew &>/dev/null; then
   compinit
 fi
 
-# Determine prompt 
+# Determine prompt
 if [ $(command -v oh-my-posh) ]; then
   eval "$(oh-my-posh --init --shell zsh --config "$HOME/.config/ohmyposh/ohmyposhv3-v2.json")"
-else 
+else
   # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
   znap source romkatv/powerlevel10k
   [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

@@ -8,15 +8,6 @@
             "top": 2
         }
     },
-    "display": {
-        "color": {
-            "keys": "green",
-            "title": "blue"
-        },
-        "percentType": 9, // colored percent number
-        "separator": " 󰁔 ",
-        "temperatureUnit": "F"
-    },
     "modules": [
         {
             "type": "custom",

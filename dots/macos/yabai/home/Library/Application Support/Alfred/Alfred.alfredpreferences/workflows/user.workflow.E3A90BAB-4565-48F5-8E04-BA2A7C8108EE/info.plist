@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.yannickglt.alfred2.slack</string>
+	<key>connections</key>
+	<dict>
+		<key>641D30A9-DD81-4243-8479-BB51658BF9FF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BE4D4090-FF1C-4FF4-849C-958AFD57A03F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BE4D4090-FF1C-4FF4-849C-958AFD57A03F</key>
+		<array/>
+	</dict>
+	<key>createdby</key>
+	<string>Yannick Galatol</string>
+	<key>description</key>
+	<string>Interact with slack through Alfred</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Slack</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>test</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string></string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>641D30A9-DD81-4243-8479-BB51658BF9FF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>$query = trim($argv[1]);
+
+
+
+
+curl -X POST -H "Content-Type: application/json" -d '{
+"token": "xoxb-389835125189-5819123957044-0hi1kO88s5JcC7VIbQpJiO08",
+"profile: {
+    "status_text": "riding a train",
+    "status_emoji": ":mountain_railway:",
+    "status_expiration": 0
+}
+}' https://slack.com/api/users.profile.set</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>BE4D4090-FF1C-4FF4-849C-958AFD57A03F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>641D30A9-DD81-4243-8479-BB51658BF9FF</key>
+		<dict>
+			<key>xpos</key>
+			<real>190</real>
+			<key>ypos</key>
+			<real>55</real>
+		</dict>
+		<key>BE4D4090-FF1C-4FF4-849C-958AFD57A03F</key>
+		<dict>
+			<key>xpos</key>
+			<real>530</real>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>4.2.3</string>
+	<key>webaddress</key>
+	<string>https://github.com/yannickglt/alfred-slack</string>
+</dict>
+</plist>

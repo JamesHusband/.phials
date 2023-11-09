@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>FA672B1A-4795-4BC6-9FB0-FBFA9999F47F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A224E96B-AD20-412B-BB9A-07284CC92897</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>James Husband</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>CMS Login - COPY</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>testfunc</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>sdfsdf</string>
+				<key>script</key>
+				<string> import sys
+ from workflow import Workflow, ICON_WEB, web
+
+ API_KEY = 'your-pinboard-api-key'
+
+
+ def main(wf):
+     url = 'https://api.pinboard.in/v1/posts/recent'
+     params = dict(auth_token=API_KEY, count=20, format='json')
+     r = web.get(url, params)
+
+     # throw an error if request failed
+     # Workflow will catch this and show it to the user
+     r.raise_for_status()
+
+     # Parse the JSON returned by pinboard and extract the posts
+     result = r.json()
+     posts = result['posts']
+
+     # Loop through the returned posts and add an item for each to
+     # the list of results for Alfred
+     for post in posts:
+         wf.add_item(title=post['description'],
+                     subtitle=post['href'],
+                     icon=ICON_WEB)
+
+     # Send the results to Alfred as XML
+     wf.send_feedback()
+
+
+ if __name__ == u"__main__":
+     wf = Workflow()
+     sys.exit(wf.run(main))</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>sdfsd</string>
+				<key>title</key>
+				<string>dfsfsd</string>
+				<key>type</key>
+				<integer>9</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>FA672B1A-4795-4BC6-9FB0-FBFA9999F47F</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>~/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.78AA658B-A712-4B06-9BAB-837A8CAF03A4/icon.png</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>A224E96B-AD20-412B-BB9A-07284CC92897</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>1</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>cheato</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>2</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>wait a sec...</string>
+				<key>script</key>
+				<string>python cheat.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search through your personal cheat sheets</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>CC1434B2-B024-4B99-9E68-58B3BA8A3EC7</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>A224E96B-AD20-412B-BB9A-07284CC92897</key>
+		<dict>
+			<key>xpos</key>
+			<real>360</real>
+			<key>ypos</key>
+			<real>170</real>
+		</dict>
+		<key>CC1434B2-B024-4B99-9E68-58B3BA8A3EC7</key>
+		<dict>
+			<key>xpos</key>
+			<real>115</real>
+			<key>ypos</key>
+			<real>315</real>
+		</dict>
+		<key>FA672B1A-4795-4BC6-9FB0-FBFA9999F47F</key>
+		<dict>
+			<key>xpos</key>
+			<real>115</real>
+			<key>ypos</key>
+			<real>120</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

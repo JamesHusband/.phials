@@ -70,20 +70,7 @@ cat_theme_qt() {
 
 cat_theme_firefox() {
 	# Install firefox theme
-	"$SCRIPT_DIR"/firefox-themer.sh -p dev -t minimal
-}
-
-cat_theme_spotify() {
-	# Set spicetify theme
-	if [[ $(command -v spicetify) ]]; then
-		message "setting spicetify theme"
-		spicetify config current_theme catppuccin-macchiato
-		spicetify config color_scheme blue
-		spicetify apply
-		success_message "Installed Spotify Catppuccin theme"
-	else
-		error_message "Spicetify not detected... installation instructions: https://spicetify.app/docs/advanced-usage/installation/"
-	fi
+	"$SCRIPTS_DIR"/firefox/firefox-themer.sh -p dev -t minimal
 }
 
 cat_theme_btop() {
@@ -93,7 +80,7 @@ cat_theme_btop() {
 }
 
 cat_theme_all() {
-	cat_backup_existing
+	# cat_backup_existing
 
 	if [ "$(uname)" = "Linux" ]; then
 		cat_theme_gtk
@@ -102,7 +89,6 @@ cat_theme_all() {
 		warning_message "Not running Linux. Skipping GTK/QT themes."
 	fi
 
-	cat_theme_btop
+	# cat_theme_btop
 	cat_theme_firefox
-	cat_theme_spotify
 }

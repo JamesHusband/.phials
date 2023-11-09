@@ -66,6 +66,7 @@ get_theme() {
 }
 
 install_theme() {
+
 	if [[ ! -d $FF_USER_PROFILE ]]; then
 		get_profile
 	fi

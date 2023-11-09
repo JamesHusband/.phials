@@ -18,28 +18,28 @@ fi
 [[ -f "$LOG_FILE" ]] && rm -f "$LOG_FILE"
 exec > >(tee -a "$LOG_FILE") 2>&1
 
-# ░▀█▀░█▀█░█▀▀░▀█▀░█▀█░█░░░█░░░█▀█░▀█▀░▀█▀░█▀█░█▀█░░░█▀▀░▀█▀░█▀▀░█▀█░█▀▀
-# ░░█░░█░█░▀▀█░░█░░█▀█░█░░░█░░░█▀█░░█░░░█░░█░█░█░█░░░▀▀█░░█░░█▀▀░█▀▀░▀▀█
-# ░▀▀▀░▀░▀░▀▀▀░░▀░░▀░▀░▀▀▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀░▀░░░▀▀▀░░▀░░▀▀▀░▀░░░▀▀▀
-logo
+# # ░▀█▀░█▀█░█▀▀░▀█▀░█▀█░█░░░█░░░█▀█░▀█▀░▀█▀░█▀█░█▀█░░░█▀▀░▀█▀░█▀▀░█▀█░█▀▀
+# # ░░█░░█░█░▀▀█░░█░░█▀█░█░░░█░░░█▀█░░█░░░█░░█░█░█░█░░░▀▀█░░█░░█▀▀░█▀▀░▀▀█
+# # ░▀▀▀░▀░▀░▀▀▀░░▀░░▀░▀░▀▀▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀░▀░░░▀▀▀░░▀░░▀▀▀░▀░░░▀▀▀
+# logo
 
 
 # # Install shared first in case specific overrides it
 shared_install
 
-# if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-# 	message "Linux detected..."
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+	message "Linux detected..."
 
-# 	linux_install
+	# linux_install
 
-# elif [[ "$OSTYPE" == "darwin"* ]]; then
-# 	message "Mac detected..."
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+	message "Mac detected..."
 
-# 	mac_install
+	mac_install
 
-# elif [[ "$OSTYPE" == "win32" ]]; then
-# 	error_message "Run the install.bat script instead..."
+elif [[ "$OSTYPE" == "win32" ]]; then
+	error_message "Run the install.bat script instead..."
 
-# else
-# 	error_message "unsupported os... exiting"
-# fi
+else
+	error_message "unsupported os... exiting"
+fi

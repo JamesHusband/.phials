@@ -80,44 +80,40 @@ shared_copy_configuration() {
 	message "Copying shared config files"
 
 	# copy home folder dotfiles if you dont want to use symlinks
-	copy_files "$DOTS_DIR"/shared/home ~
+	# copy_files "$DOTS_DIR"/shared/home ~
 
 	# # link files that replace contents of location
-	# # link_locations "$SHARED_HOME"/.config/bat "$HOME"/.config/bat
+  link_locations "$SHARED_HOME".zshrc "$HOME"/.zshrc
+	link_locations "$SHARED_HOME".zshenv "$HOME"/.zshenv
+	link_locations "$SHARED_HOME".aliases "$HOME"/.aliases
+	link_locations "$SHARED_HOME".functions "$HOME"/.functions
+	link_locations "$SHARED_HOME".p10k.zsh "$HOME"/.p10k.zsh
+	link_locations "$SHARED_HOME"/.config/bat "$HOME"/.config/bat
 	# # link_locations "$SHARED_HOME"/.config/btop "$HOME"/.config/btop
-	# link_locations "$SHARED_HOME"/.config/fastfetch "$HOME"/.config/fastfetch
+	link_locations "$SHARED_HOME"/.config/fastfetch "$HOME"/.config/fastfetch
 	# link_locations "$SHARED_HOME"/.config/ohmyposh "$HOME"/.config/ohymyposh
 	# link_locations "$SHARED_HOME"/.config/topgrade.toml "$HOME"/.config/topgrade.toml
 
 	# link_locations "$SHARED_HOME"/.oh-my-bash "$HOME"/.oh-my-bash
-	# link_locations "$SHARED_HOME"/.oh-my-bash-custom/themes/powerlevel10k "$HOME"/.oh-my-bash/custom/themes/powerlevel10k
+	link_locations "$SHARED_HOME"/.oh-my-bash-custom/themes/powerlevel10k "$HOME"/.oh-my-bash/custom/themes/powerlevel10k
 
 	# link_locations "$SHARED_HOME"/.bashenv "$HOME"/.bashenv
 	# link_locations "$SHARED_HOME"/.bashrc "$HOME"/.bashrc
 	# link_locations "$SHARED_HOME"/.gitconfig "$HOME"/.gitconfig
 	# link_locations "$SHARED_HOME"/.gitconfig.functions "$HOME"/.gitconfig.functions
 	# link_locations "$SHARED_HOME"/.gitignore_global "$HOME"/.gitignore_global
-	# link_locations "$SHARED_HOME"/.p10k.zsh "$HOME"/.p10k.zsh
-	# link_locations "$SHARED_HOME"/.zshrc "$HOME"/.zshrc
-	# link_locations "$SHARED_HOME"/.zshenv "$HOME"/.zshenv
-	# link_locations "$SHARED_HOME"/.aliases "$HOME"/.aliases
-	# link_locations "$SHARED_HOME"/.functions "$HOME"/.functions
+
 
 	# git_crypt_check && link_locations "$SHARED_HOME"/.gnupg "$HOME"/.gnupg
 	# git_crypt_check && link_locations "$SHARED_HOME"/.gitconfig.signing "$HOME"/.gitconfig.signing
-	# git_crypt_check && link_locations "$SHARED_HOME"/.ssh "$HOME"/.ssh
-	# git_crypt_check && link_locations "$SHARED_HOME"/.wakatime.cfg "$HOME"/.wakatime.cfg
-	# git_crypt_check && link_locations "$SHARED_HOME"/.wegorc "$HOME"/.wegorc
-	# git_crypt_check && link_locations "$SHARED_HOME"/weather_url "$HOME"/weather_url
-	# git_crypt_check && link_locations "$SHARED_HOME"/wttr_location "$HOME"/wttr_location
-	# git_crypt_check && link_locations "$SHARED_HOME"/.config/nix/nix.conf "$HOME"/.config/nix/nix.conf
+	# git_crypt_check && link_locations "$SHARED_HOME"/.ssh "$HOME"/.sshwegorcE"/weather_url
 	# git_crypt_check && link_locations "$SHARED_HOME"/.config/gh "$HOME"/.config/gh
 	# git_crypt_check && link_locations "$SHARED_HOME"/.config/github-copilot "$HOME"/.config/github-copilot
 
 	# copy files that dont replace contents of location
-	# copy_files "$SHARED_HOME"/.fonts/ "$HOME"/.fonts/
-	# copy_files "$SHARED_HOME"/.local/ "$HOME"/.local/
-	# copy_files "$SHARED_HOME"/.mozilla/ "$HOME"/.mozilla/
+	copy_files "$SHARED_HOME"/.fonts/ "$HOME"/.fonts/
+	copy_files "$SHARED_HOME"/.local/ "$HOME"/.local/
+	copy_files "$SHARED_HOME"/.mozilla/ "$HOME"/.mozilla/
 }
 
 shared_install() {
