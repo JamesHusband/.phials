@@ -33,8 +33,8 @@ if (Test-CommandExists scoop) {
 
     # scoops
     $scoop_apps = @(
-        # 'sudo', 'bat', 'btop', 'fastfetch', 'pshazz', 'git-crypt', 'vcredist', '1password-cli',
-        # 'secureuxtheme', '7tsp', 'archwsl', 'spicetify-cli', 'topgrade'
+        'sudo', 'bat', 'btop', 'fastfetch', 'pshazz', 'git-crypt', 'vcredist',
+        'secureuxtheme', '7tsp', 'archwsl', 'topgrade'
     )
 
     foreach ($app in $scoop_apps) {
@@ -42,7 +42,7 @@ if (Test-CommandExists scoop) {
     }
 
     # elevated installs
-    # sudo scoop install windowsdesktop-runtime-lts
+    sudo scoop install windowsdesktop-runtime-lts
 }
 else {
     Write-Message -Type WARNING  -Message "    Scoop not installed. Skipping scoop installs..."
@@ -75,30 +75,20 @@ else {
 ##
 if (Test-CommandExists winget) {
     $winget_apps = @(
-        # 'MSYS2.MSYS2',
-        # 'Microsoft.Powershell.Preview',
-        # 'Microsoft.WindowsTerminal.Preview',
-        # 'Bitsum.ProcessLasso',
-        # 'Git.Git',
-        # 'GitHub.GitHubDesktop',
-        # 'Microsoft.VisualStudioCode',
-        # 'Neovim.Neovim',
-        # 'Microsoft.DotNet.SDK.7',
-        # 'Microsoft.DotNet.Runtime.7',
-        # 'Microsoft.DotNet.DesktopRuntime.7',
-        # 'Mozilla.Firefox.DeveloperEdition',
-        # 'AgileBits.1Password',
-        # 'Microsoft.Teams',
-        # 'AntibodySoftware.WizTree',
-        # 'Notepad++.Notepad++',
-        # 'Microsoft.Sysinternals.Autoruns',
-        # 'Valve.Steam',
-        # 'HeroicGamesLauncher.HeroicGamesLauncher',
-        # 'Alacritty.Alacritty',
-        # 'Rustlang.Rustup',
-        # 'LLVM.LLVM',
-        # 'CoreyButler.NVMforWindows',
-        # 'JesseDuffield.lazygit'
+        'Microsoft.VisualStudioCode'
+        'Microsoft.WindowsTerminal.Preview'
+        'Microsoft.Powershell.Preview'
+        'Git.Git',
+        'GitHub.GitHubDesktop',
+        'Microsoft.DotNet.SDK.7',
+        'Microsoft.DotNet.Runtime.7',
+        'Microsoft.DotNet.DesktopRuntime.7',
+        'Mozilla.Firefox.DeveloperEdition',
+        'AntibodySoftware.WizTree'
+        'Microsoft.Sysinternals.Autoruns'
+        'Valve.Steam',
+        'CoreyButler.NVMforWindows',
+        'JesseDuffield.lazygit'
     )
 
     foreach ($app in $winget_apps) {

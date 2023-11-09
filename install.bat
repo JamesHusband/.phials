@@ -7,4 +7,4 @@ REM *     ██   ██║██╔══██║██║╚██╔╝█�
 REM *     ╚█████╔╝██║  ██║██║ ╚═╝ ██║╚██████╔╝███████║
 REM *      ╚════╝ ╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚══════╝
 
-powershell -NoProfile -ExecutionPolicy Bypass -Command "scripts/os/windows.ps1"`
+powershell -NoProfile -ExecutionPolicy Bypass -Command "scripts/os/windows.ps1"

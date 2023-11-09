@@ -1,4 +1,4 @@
-using module Message
+﻿using module Message
 using module RegistryEntry
 using module TestCommandExists
 
@@ -49,8 +49,8 @@ else {
     Write-Message -Type WARNING  -Message "Patch OS to apply custom themes"
 }
 
-# ## Set komorebi to run on startup
-# $RegPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" 
+## Set komorebi to run on startup
+$RegPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" 
 
-# Write-Message -Message "Setting komorebi to start on login"
-# Set-RegistryEntry -Key 'KomorebicOnLogin' -Type "String" -Value 'pwsh -Command "komorebic start --await-configuration"' -Path $RegPath
+Write-Message -Message "Setting komorebi to start on login"
+Set-RegistryEntry -Key 'KomorebicOnLogin' -Type "String" -Value 'pwsh -Command "komorebic start --await-configuration"' -Path $RegPath

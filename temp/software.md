@@ -1,3 +1,0 @@
-
-
-WinDir Star
