@@ -23,9 +23,8 @@ exec > >(tee -a "$LOG_FILE") 2>&1
 # # ░▀▀▀░▀░▀░▀▀▀░░▀░░▀░▀░▀▀▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀░▀░░░▀▀▀░░▀░░▀▀▀░▀░░░▀▀▀
 # logo
 
-
 # # Install shared first in case specific overrides it
-shared_install
+# shared_install
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	message "Linux detected..."
