@@ -14,8 +14,7 @@
 </p>
 
 <p align="center">
-A wise tech lead once told me "Lazy developers make the best developers", as a lazy developer I 
-Personal dotfiles for each of the platforms I own or have customized.
+A wise tech lead once told me "Lazy developers make the best developers". As a lazy developer myself, this rang true to me in a big way! I'm constantly trying to find way of automating my life.  Personal dotfiles for each of the platforms I own or have customized.
 </p>
 
 
@@ -45,7 +44,7 @@ Resources and libraries I am using.
 - [ViRb3/poweruser](https://github.com/ViRb3/poweruser)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQ3ODY4ODcsMjY4NzU3OSwtMzA5Nj
-E1NTA5LC03ODMwNjUxMCwtODY1NzIxMTY0LDUxODM3MzM4Mywt
-NzM2ODI0MzQsLTE4MjUxODU1NTNdfQ==
+eyJoaXN0b3J5IjpbMjk2MjY5OTEzLDI2ODc1NzksLTMwOTYxNT
+UwOSwtNzgzMDY1MTAsLTg2NTcyMTE2NCw1MTgzNzMzODMsLTcz
+NjgyNDM0LC0xODI1MTg1NTUzXX0=
 -->
