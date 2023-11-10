@@ -1,6 +1,6 @@
 using module RegistryEntry
 using module TestCommandExists
-using module Message
+using module SendMessage
 
 $env:PSModulePath = "$PSHOME/Modules\" + ";$SCRIPTS_DIR/os/windows/modules";
 

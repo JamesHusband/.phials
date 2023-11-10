@@ -1,5 +1,5 @@
 using module ElevateScript
-using module Message
+using module SendMessage
 
 function New-SymbolicLink {
     param (

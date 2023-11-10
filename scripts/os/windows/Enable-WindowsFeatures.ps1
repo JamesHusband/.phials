@@ -1,4 +1,4 @@
-using module Message
+using module SendMessage
 using module ElevateScript
 
 #
