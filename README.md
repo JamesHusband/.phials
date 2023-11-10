@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-A wise te
+A wise tech lead once told me "Lazy developers make the best developers", as a lazy developer I 
 Personal dotfiles for each of the platforms I own or have customized.
 </p>
 
@@ -45,7 +45,7 @@ Resources and libraries I am using.
 - [ViRb3/poweruser](https://github.com/ViRb3/poweruser)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODYwMzgyNywyNjg3NTc5LC0zMDk2MT
-U1MDksLTc4MzA2NTEwLC04NjU3MjExNjQsNTE4MzczMzgzLC03
-MzY4MjQzNCwtMTgyNTE4NTU1M119
+eyJoaXN0b3J5IjpbLTE3NzQ3ODY4ODcsMjY4NzU3OSwtMzA5Nj
+E1NTA5LC03ODMwNjUxMCwtODY1NzIxMTY0LDUxODM3MzM4Mywt
+NzM2ODI0MzQsLTE4MjUxODU1NTNdfQ==
 -->
