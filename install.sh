@@ -21,10 +21,10 @@ exec > >(tee -a "$LOG_FILE") 2>&1
 # # ░▀█▀░█▀█░█▀▀░▀█▀░█▀█░█░░░█░░░█▀█░▀█▀░▀█▀░█▀█░█▀█░░░█▀▀░▀█▀░█▀▀░█▀█░█▀▀
 # # ░░█░░█░█░▀▀█░░█░░█▀█░█░░░█░░░█▀█░░█░░░█░░█░█░█░█░░░▀▀█░░█░░█▀▀░█▀▀░▀▀█
 # # ░▀▀▀░▀░▀░▀▀▀░░▀░░▀░▀░▀▀▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀░▀░░░▀▀▀░░▀░░▀▀▀░▀░░░▀▀▀
-# logo
+logo
 
 # # Install shared first in case specific overrides it
-# shared_install
+shared_install
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	message "Linux detected..."
@@ -38,7 +38,6 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 
 elif [[ "$OSTYPE" == "win32" ]]; then
 	error_message "Run the install.bat script instead..."
-
 else
 	error_message "unsupported os... exiting"
 fi

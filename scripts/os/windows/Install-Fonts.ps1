@@ -20,7 +20,6 @@ for ( $i = 0; $i -lt $args.count; $i++ ) {
     $FontItem = Get-Item -Path $Path
     
     $FontList = Get-ChildItem -Recurse -Path "$FontItem\*" -Include ('*.fon', '*.otf', '*.ttc', '*.ttf')
-    $Fontdir = dir $Path
 
     foreach ($File in $FontList) {
         $name = $File.baseName
