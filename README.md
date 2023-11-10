@@ -15,6 +15,12 @@
 Personal dotfiles for each of the platforms I own or have customized.
 </p>
 
+
+# :notebook_with_decorative_cover: Table of Contents
+
+
+
+
 # :notebook_with_decorative_cover: Table of Contents
 - [About the Project](#star2-about-the-project)
 - [Resources](#gem-resources)
@@ -30,3 +36,6 @@ Resources and libraries I am using.
 - [khaneliman](https://github.com/khaneliman/dotfiles)
 - [atlassian dotfiles](https://www.atlassian.com/git/tutorials/dotfiles)
 - [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjA4MzMxMTUzM119
+-->
