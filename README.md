@@ -26,11 +26,12 @@ Personal dotfiles for each of the platforms I own or have customized.
 
 
 # :white_check_mark: TODO
-
  - **Windows Configs**
  - **Firefox Profile**
+ - **Korembi Profile**
  - **Tiling Window Managers**
- - **.bat Breaks if run from Powershell (not Windows Powershell)**
+ - **VsCode Settings / Theming**
+ - **Windows Setup (debloat, drivers)**
 
 # :notebook_with_decorative_cover: Table of Contents
 - [About the Project](#star2-about-the-project)
@@ -47,7 +48,10 @@ Resources and libraries I am using.
 - [khaneliman](https://github.com/khaneliman/dotfiles)
 - [atlassian dotfiles](https://www.atlassian.com/git/tutorials/dotfiles)
 - [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
+- [ViRb3/poweruser](https://github.com/ViRb3/poweruser)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTcyMTE2NCw1MTgzNzMzODMsLTczNj
-gyNDM0LC0xODI1MTg1NTUzXX0=
+eyJoaXN0b3J5IjpbMjY4NzU3OSwtMzA5NjE1NTA5LC03ODMwNj
+UxMCwtODY1NzIxMTY0LDUxODM3MzM4MywtNzM2ODI0MzQsLTE4
+MjUxODU1NTNdfQ==
 -->
