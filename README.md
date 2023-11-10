@@ -21,6 +21,7 @@ Personal dotfiles for each of the platforms I own or have customized.
  - **Windows Configs**
  - **Firefox Profile**
  - **Tiling Window Managers**
+ - **.bat Breaks if run from Powershell (not Windows Powershell)**
 
 # :notebook_with_decorative_cover: Table of Contents
 - [About the Project](#star2-about-the-project)
@@ -38,5 +39,5 @@ Resources and libraries I am using.
 - [atlassian dotfiles](https://www.atlassian.com/git/tutorials/dotfiles)
 - [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjUxODU1NTNdfQ==
+eyJoaXN0b3J5IjpbLTczNjgyNDM0LC0xODI1MTg1NTUzXX0=
 -->
