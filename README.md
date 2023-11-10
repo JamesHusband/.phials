@@ -7,13 +7,30 @@
  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
+
+[issues-url]: https://github.com/JamesHusband/jamos/issues
+
 <p align="center">
  <a href="https://github.com/JamesHusband/jamos/contributors"><img src="https://img.shields.io/github/contributors/JamesHusband/jamos?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+ 
+ 
+[issues-shield]: https://img.shields.io/github/issues/JamesHusband/jamos.svg?style=for-the-badge
+ 
+[![Issues][issues-shield]][issues-url]
+
 </p>
 
 <p align="center">
 Personal dotfiles for each of the platforms I own or have customized.
 </p>
+
+
+# :white_check_mark: TODO
+
+ - **Windows Configs**
+ - **Firefox Profile**
+ - **Tiling Window Managers**
+ - **.bat Breaks if run from Powershell (not Windows Powershell)**
 
 # :notebook_with_decorative_cover: Table of Contents
 - [About the Project](#star2-about-the-project)
@@ -30,3 +47,7 @@ Resources and libraries I am using.
 - [khaneliman](https://github.com/khaneliman/dotfiles)
 - [atlassian dotfiles](https://www.atlassian.com/git/tutorials/dotfiles)
 - [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTg2NTcyMTE2NCw1MTgzNzMzODMsLTczNj
+gyNDM0LC0xODI1MTg1NTUzXX0=
+-->
