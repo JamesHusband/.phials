@@ -8,27 +8,11 @@
 </h3>
 
 
-
 <p align="center">
  <a href="https://github.com/JamesHusband/jamos/contributors"><img src="https://img.shields.io/github/contributors/JamesHusband/jamos?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-<p align="center"><span style="color:red">I'm sorry, Dave. I'm afraid I can't do that</span></p>
-
 >A wise tech lead once told me "Lazy developers make the best developers". 
-
-  <q cite="https://www.imdb.com/title/tt0062622/quotes/?item=qt0396921&ref_=ext_shr_lnk">
-    I'm sorry, Dave. I'm afraid I can't do that.
-  </q>z
-
-<blockquote cite="https://www.huxley.net/bnw/four.html" align="center">
-  <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
-  <footer>—Aldous Huxley, <cite>Brave New World</cite></footer>
-</blockquote>
-
-
-As a lazy developer myself, this rang true to me in a big way! I'm constantly trying to find way of automating my life.  Personal dotfiles for each of the platforms I own or have customized.
-
 
 
 # :white_check_mark: TODO
@@ -45,6 +29,11 @@ As a lazy developer myself, this rang true to me in a big way! I'm constantly tr
 
 
 ## :star2: About the Project
+>A wise tech lead once told me "Lazy developers make the best developers". 
+
+As a lazy developer myself, this rang true to me in a big way! I'm constantly trying to find way of automating my life. 
+- Personal dotfiles for each of the platforms I own or have customized.
+
 
 ## :gem: Resources
 
@@ -57,7 +46,7 @@ Resources and libraries I am using.
 - [ViRb3/poweruser](https://github.com/ViRb3/poweruser)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjE0NDcwNywxOTU4NzMwODksMjY4Nz
+eyJoaXN0b3J5IjpbMTQ2MDU1Mzg3MCwxOTU4NzMwODksMjY4Nz
 U3OSwtMzA5NjE1NTA5LC03ODMwNjUxMCwtODY1NzIxMTY0LDUx
 ODM3MzM4MywtNzM2ODI0MzQsLTE4MjUxODU1NTNdfQ==
 -->
