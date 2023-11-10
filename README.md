@@ -7,11 +7,14 @@
  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
+
+[issues-url]: https://github.com/JamesHusband/jamos/issues
+
 <p align="center">
  <a href="https://github.com/JamesHusband/jamos/contributors"><img src="https://img.shields.io/github/contributors/JamesHusband/jamos?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
  
  
- [issues-shield]: https://img.shields.io/github/issues/JamesHusband/jamos.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/JamesHusband/jamos.svg?style=for-the-badge
  
 [![Issues][issues-shield]][issues-url]
 
@@ -45,6 +48,6 @@ Resources and libraries I am using.
 - [atlassian dotfiles](https://www.atlassian.com/git/tutorials/dotfiles)
 - [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4MzczMzgzLC03MzY4MjQzNCwtMTgyNT
-E4NTU1M119
+eyJoaXN0b3J5IjpbLTg2NTcyMTE2NCw1MTgzNzMzODMsLTczNj
+gyNDM0LC0xODI1MTg1NTUzXX0=
 -->
