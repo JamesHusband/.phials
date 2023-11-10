@@ -15,6 +15,14 @@
 
 >A wise tech lead once told me "Lazy developers make the best developers". 
 
+
+
+<blockquote cite="https://www.huxley.net/bnw/four.html" align="center">
+  <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+  <footer>—Aldous Huxley, <cite>Brave New World</cite></footer>
+</blockquote>
+
+
 As a lazy developer myself, this rang true to me in a big way! I'm constantly trying to find way of automating my life.  Personal dotfiles for each of the platforms I own or have customized.
 
 
@@ -45,7 +53,7 @@ Resources and libraries I am using.
 - [ViRb3/poweruser](https://github.com/ViRb3/poweruser)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODczMDg5LDI2ODc1NzksLTMwOTYxNT
-UwOSwtNzgzMDY1MTAsLTg2NTcyMTE2NCw1MTgzNzMzODMsLTcz
-NjgyNDM0LC0xODI1MTg1NTUzXX0=
+eyJoaXN0b3J5IjpbNDEwMDkxNzg1LDE5NTg3MzA4OSwyNjg3NT
+c5LC0zMDk2MTU1MDksLTc4MzA2NTEwLC04NjU3MjExNjQsNTE4
+MzczMzgzLC03MzY4MjQzNCwtMTgyNTE4NTU1M119
 -->
