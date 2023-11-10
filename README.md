@@ -8,19 +8,13 @@
 </h3>
 
 
-[issues-url]: https://github.com/JamesHusband/jamos/issues
 
 <p align="center">
  <a href="https://github.com/JamesHusband/jamos/contributors"><img src="https://img.shields.io/github/contributors/JamesHusband/jamos?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
- 
- 
-[issues-shield]: https://img.shields.io/github/issues/JamesHusband/jamos.svg?style=for-the-badge
- 
-[![Issues][issues-shield]][issues-url]
-
 </p>
 
 <p align="center">
+A wise te
 Personal dotfiles for each of the platforms I own or have customized.
 </p>
 
@@ -51,7 +45,7 @@ Resources and libraries I am using.
 - [ViRb3/poweruser](https://github.com/ViRb3/poweruser)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4NzU3OSwtMzA5NjE1NTA5LC03ODMwNj
-UxMCwtODY1NzIxMTY0LDUxODM3MzM4MywtNzM2ODI0MzQsLTE4
-MjUxODU1NTNdfQ==
+eyJoaXN0b3J5IjpbLTcyODYwMzgyNywyNjg3NTc5LC0zMDk2MT
+U1MDksLTc4MzA2NTEwLC04NjU3MjExNjQsNTE4MzczMzgzLC03
+MzY4MjQzNCwtMTgyNTE4NTU1M119
 -->
