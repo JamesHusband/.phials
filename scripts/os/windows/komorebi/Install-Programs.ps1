@@ -14,12 +14,12 @@ $env:PSModulePath = "$PSHOME/Modules\" + ";$SCRIPTS_DIR/os/windows/modules";
 ##
 if (Test-CommandExists winget) {
     $winget_apps = @(
-        'JanDeDobbeleer.OhMyPosh'
-        # 'MicaForEveryone.MicaForEveryone',
-        # 'Rainmeter.Rainmeter',
-        # 'StartIsBack.StartAllBack',
-        # 'LGUG2Z.komorebi',
-        # 'LGUG2Z.whkd'
+        'JanDeDobbeleer.OhMyPosh',
+        'MicaForEveryone.MicaForEveryone',
+        'Rainmeter.Rainmeter',
+        'StartIsBack.StartAllBack',
+        'LGUG2Z.komorebi',
+        'LGUG2Z.whkd'
     )
 
     foreach ($app in $winget_apps) {

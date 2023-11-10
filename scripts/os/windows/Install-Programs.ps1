@@ -33,7 +33,7 @@ if (Test-CommandExists scoop) {
 
     # scoops
     $scoop_apps = @(
-        'sudo', 'bat', 'btop', 'fastfetch', 'pshazz', 'git-crypt', 'vcredist',
+        'sudo', 'bat', 'btop', 'fastfetch', 'pshazz', 'vcredist',
         'secureuxtheme', '7tsp', 'archwsl', 'topgrade'
     )
 
@@ -83,7 +83,7 @@ if (Test-CommandExists winget) {
         'Microsoft.DotNet.SDK.7',
         'Microsoft.DotNet.Runtime.7',
         'Microsoft.DotNet.DesktopRuntime.7',
-        'Mozilla.Firefox.DeveloperEdition',
+        'Mozilla.Firefox',
         'AntibodySoftware.WizTree'
         'Microsoft.Sysinternals.Autoruns'
         'Valve.Steam',

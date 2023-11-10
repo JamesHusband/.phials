@@ -17,23 +17,23 @@ Write-Message -Type WARNING -Message "Enabling features requires admin elevated 
 # Self-elevate the script if required
 Request-ElevateScript -File $MyInvocation.MyCommand.Path
 
-$RegistryKeyPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock"
-if (! (Test-Path -Path $RegistryKeyPath)) {
-    Write-Message -Message "Enable installing unsigned apps"
-    New-Item -Path $RegistryKeyPath -ItemType Directory -Force
-}
-else {
-    Write-Message -Type WARNING -Message "AppModelUnlock already set. Skipping.."
-}
+# $RegistryKeyPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock"
+# if (! (Test-Path -Path $RegistryKeyPath)) {
+#     Write-Message -Message "Enable installing unsigned apps"
+#     New-Item -Path $RegistryKeyPath -ItemType Directory -Force
+# }
+# else {
+#     Write-Message -Type WARNING -Message "AppModelUnlock already set. Skipping.."
+# }
 
-if (! (Get-ItemProperty -Path $RegistryKeyPath | Select -ExpandProperty AllowDevelopmentWithoutDevLicense)) {
-    # Add registry value to enable Developer Mode
-    Write-Message -Message "Enable developer mode"
-    New-ItemProperty -Path $RegistryKeyPath -Name AllowDevelopmentWithoutDevLicense -PropertyType DWORD -Value 1
-}
-else {
-    Write-Message -Type WARNING -Message "Dev mode already enabled. Skipping.."
-}
+# if (! (Get-ItemProperty -Path $RegistryKeyPath | Select -ExpandProperty AllowDevelopmentWithoutDevLicense)) {
+#     # Add registry value to enable Developer Mode
+#     Write-Message -Message "Enable developer mode"
+#     New-ItemProperty -Path $RegistryKeyPath -Name AllowDevelopmentWithoutDevLicense -PropertyType DWORD -Value 1
+# }
+# else {
+#     Write-Message -Type WARNING -Message "Dev mode already enabled. Skipping.."
+# }
 
 $feature = Get-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -Online
 if ($feature -and ($feature.State -eq "Disabled")) {
@@ -53,11 +53,11 @@ else {
     Write-Message -Type WARNING -Message "Virtual Machine Platform already enabled. Skipping.."
 }
 
-# $feature = Get-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V -Online
-# if ($feature -and ($feature.State -eq "Disabled")) {
-#     Write-Message -Message "Enable Hyper-V"
-#     Enable-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V -Online -All -LimitAccess -NoRestart
-# }
-# else {
-#     Write-Message -Type WARNING -Message "Hyper-V already enabled. Skipping.."
-# }
+$feature = Get-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V -Online
+if ($feature -and ($feature.State -eq "Disabled")) {
+    Write-Message -Message "Enable Hyper-V"
+    Enable-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V -Online -All -LimitAccess -NoRestart
+}
+else {
+    Write-Message -Type WARNING -Message "Hyper-V already enabled. Skipping.."
+}
