@@ -13,12 +13,8 @@
  <a href="https://github.com/JamesHusband/jamos/contributors"><img src="https://img.shields.io/github/contributors/JamesHusband/jamos?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-<p align="center">
-<p>
-    I'm sorry, Dave. I'm afraid I can't do that.
-     </p>
- </p>
- 
+<p align="center"><span style="color:red">I'm sorry, Dave. I'm afraid I can't do that</span></p>
+
 >A wise tech lead once told me "Lazy developers make the best developers". 
 
   <q cite="https://www.imdb.com/title/tt0062622/quotes/?item=qt0396921&ref_=ext_shr_lnk">
@@ -61,7 +57,7 @@ Resources and libraries I am using.
 - [ViRb3/poweruser](https://github.com/ViRb3/poweruser)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0MDU5MjA1LDE5NTg3MzA4OSwyNjg3NT
-c5LC0zMDk2MTU1MDksLTc4MzA2NTEwLC04NjU3MjExNjQsNTE4
-MzczMzgzLC03MzY4MjQzNCwtMTgyNTE4NTU1M119
+eyJoaXN0b3J5IjpbLTM1NjE0NDcwNywxOTU4NzMwODksMjY4Nz
+U3OSwtMzA5NjE1NTA5LC03ODMwNjUxMCwtODY1NzIxMTY0LDUx
+ODM3MzM4MywtNzM2ODI0MzQsLTE4MjUxODU1NTNdfQ==
 -->
