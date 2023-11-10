@@ -26,11 +26,12 @@ Personal dotfiles for each of the platforms I own or have customized.
 
 
 # :white_check_mark: TODO
-
  - **Windows Configs**
  - **Firefox Profile**
+ - **Korembi Profile**
  - **Tiling Window Managers**
  - **VsCode Settings / Theming**
+ - **Windows Setup (debloat, drivers)**
 
 # :notebook_with_decorative_cover: Table of Contents
 - [About the Project](#star2-about-the-project)
@@ -48,6 +49,7 @@ Resources and libraries I am using.
 - [atlassian dotfiles](https://www.atlassian.com/git/tutorials/dotfiles)
 - [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzA2NTEwLC04NjU3MjExNjQsNTE4Mz
-czMzgzLC03MzY4MjQzNCwtMTgyNTE4NTU1M119
+eyJoaXN0b3J5IjpbLTMwOTYxNTUwOSwtNzgzMDY1MTAsLTg2NT
+cyMTE2NCw1MTgzNzMzODMsLTczNjgyNDM0LC0xODI1MTg1NTUz
+XX0=
 -->
