@@ -15,7 +15,7 @@
 >A wise tech lead once told me "Lazy developers make the best developers". 
 
 
-# :white_check_mark: TODO
+## :clipboard: ToDo:
  - **Windows Configs**
  - **Firefox Profile**
  - **Korembi Profile**
@@ -46,7 +46,8 @@ Resources and libraries I am using.
 - [ViRb3/poweruser](https://github.com/ViRb3/poweruser)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDU1Mzg3MCwxOTU4NzMwODksMjY4Nz
-U3OSwtMzA5NjE1NTA5LC03ODMwNjUxMCwtODY1NzIxMTY0LDUx
-ODM3MzM4MywtNzM2ODI0MzQsLTE4MjUxODU1NTNdfQ==
+eyJoaXN0b3J5IjpbMTgyMTE2Nzc4NSwxNDYwNTUzODcwLDE5NT
+g3MzA4OSwyNjg3NTc5LC0zMDk2MTU1MDksLTc4MzA2NTEwLC04
+NjU3MjExNjQsNTE4MzczMzgzLC03MzY4MjQzNCwtMTgyNTE4NT
+U1M119
 -->
