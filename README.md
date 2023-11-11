@@ -22,6 +22,7 @@
  - **Tiling Window Managers**
  - **VsCode Settings / Theming**
  - **Windows Setup (debloat, drivers)**
+ - **Github Configs (workflows, actions)**
 
 # :notebook_with_decorative_cover: Table of Contents
 - [About the Project](#star2-about-the-project)
@@ -46,8 +47,8 @@ Resources and libraries I am using.
 - [ViRb3/poweruser](https://github.com/ViRb3/poweruser)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTE2Nzc4NSwxNDYwNTUzODcwLDE5NT
-g3MzA4OSwyNjg3NTc5LC0zMDk2MTU1MDksLTc4MzA2NTEwLC04
-NjU3MjExNjQsNTE4MzczMzgzLC03MzY4MjQzNCwtMTgyNTE4NT
-U1M119
+eyJoaXN0b3J5IjpbLTI3MzUxODQ3OCwxODIxMTY3Nzg1LDE0Nj
+A1NTM4NzAsMTk1ODczMDg5LDI2ODc1NzksLTMwOTYxNTUwOSwt
+NzgzMDY1MTAsLTg2NTcyMTE2NCw1MTgzNzMzODMsLTczNjgyND
+M0LC0xODI1MTg1NTUzXX0=
 -->
