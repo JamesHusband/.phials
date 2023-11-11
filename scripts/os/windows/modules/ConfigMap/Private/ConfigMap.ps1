@@ -82,18 +82,12 @@ class ConfigMap {
         ##
         # Shared Configs
         ##
-
-        # $this.ConfigMap += [ConfigMapEntry]::new(
-        #     ( -join ($global:DOTS_DIR, "/shared/home/.config/alacritty").Replace("/", "\")),
-        #     ( -join ($env:USERPROFILE, "\.config\alacritty").Replace("/", "\")),
-        #     $true,
-        #     $true)
         
-        # $this.ConfigMap += [ConfigMapEntry]::new(
-        #     ( -join ($global:DOTS_DIR, "/shared/home/.config/bat").Replace("/", "\")),
-        #     ( -join ($env:USERPROFILE, "\.config\bat").Replace("/", "\")),
-        #     $true,
-        #     $true)
+        $this.ConfigMap += [ConfigMapEntry]::new(
+            ( -join ($global:DOTS_DIR, "/shared/home/.config/bat").Replace("/", "\")),
+            ( -join ($env:USERPROFILE, "\.config\bat").Replace("/", "\")),
+            $true,
+            $true)
         
         # $this.ConfigMap += [ConfigMapEntry]::new(
         #     ( -join ($global:DOTS_DIR, "/shared/home/.config/fish").Replace("/", "\")),
@@ -119,11 +113,11 @@ class ConfigMap {
             $false,
             $true)
         
-        # $this.ConfigMap += [ConfigMapEntry]::new(
-        #     ( -join ($global:DOTS_DIR, "/shared/home/.config/topgrade.toml").Replace("/", "\")),
-        #     ( -join ($env:USERPROFILE, "\.config\topgrade.toml").Replace("/", "\")),
-        #     $true,
-        #     $true)
+        $this.ConfigMap += [ConfigMapEntry]::new(
+            ( -join ($global:DOTS_DIR, "/shared/home/.config/topgrade.toml").Replace("/", "\")),
+            ( -join ($env:USERPROFILE, "\.config\topgrade.toml").Replace("/", "\")),
+            $true,
+            $true)
         
         # $this.ConfigMap += [ConfigMapEntry]::new(
         #     ( -join ($global:DOTS_DIR, "/shared/home/.gitconfig").Replace("/", "\")),
@@ -131,42 +125,11 @@ class ConfigMap {
         #     $true,
         #     $true)
         
-        # $this.ConfigMap += [ConfigMapEntry]::new(
-        #     ( -join ($global:DOTS_DIR, "/shared/home/.gitconfig.functions").Replace("/", "\")),
-        #     ( -join ($env:USERPROFILE, "\.gitconfig.functions").Replace("/", "\")),
-        #     $true,
-        #     $true)
-        
-        # $this.ConfigMap += [ConfigMapEntry]::new(
-        #     ( -join ($global:DOTS_DIR, "/shared/home/.gitconfig.signing").Replace("/", "\")),
-        #     ( -join ($env:USERPROFILE, "\.gitconfig.signing").Replace("/", "\")),
-        #     $true,
-        #     $false,
-        #     $true)
-
-        # $this.ConfigMap += [ConfigMapEntry]::new(
-        #     ( -join ($global:DOTS_DIR, "/shared/home/.wakatime.cfg").Replace("/", "\")),
-        #     ( -join ($env:USERPROFILE, "\.wakatime.cfg").Replace("/", "\")),
-        #     $true,
-        #     $true)
-        
-        # $this.ConfigMap += [ConfigMapEntry]::new(
-        #     ( -join ($global:DOTS_DIR, "/shared/home/.config/ranger").Replace("/", "\")),
-        #     ( -join ($env:USERPROFILE, "\.config\ranger").Replace("/", "\")),
-        #     $true,
-        #     $true)
-                
-        # $this.ConfigMap += [ConfigMapEntry]::new(
-        #     (-join($global:DOTS_DIR,"/shared/home/.config/BetterDiscord").Replace("/","\")),
-        #     (-join($env:USERPROFILE,"\.config\BetterDiscord").Replace("/","\")),
-        #     $true,
-        #     $true)
-
-        # $this.ConfigMap += [ConfigMapEntry]::new(
-        #     ( -join ($global:DOTS_DIR, "/shared/home/.config/ohmyposh").Replace("/", "\")),
-        #     ( -join ($env:USERPROFILE, "\.config\ohmyposh").Replace("/", "\")),
-        #     $true,
-        #     $true)
+        $this.ConfigMap += [ConfigMapEntry]::new(
+            ( -join ($global:DOTS_DIR, "/shared/home/.config/ohmyposh").Replace("/", "\")),
+            ( -join ($env:USERPROFILE, "\.config\ohmyposh").Replace("/", "\")),
+            $true,
+            $true)
 
         # $this.ConfigMap += [ConfigMapEntry]::new(
         #     ( -join ($global:DOTS_DIR, "/shared/home/.bash_profile").Replace("/", "\")),

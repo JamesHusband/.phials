@@ -35,24 +35,7 @@ create_items() {
 	reminders=$(dock_item "/System/Applications/Reminders.app")
 
 	music=$(dock_item "/System/Applications/Music.app")
-
-	plex=$(dock_item "/Applications/Plex.app")
-
 	code=$(dock_item "/Applications/Visual Studio Code.app")
-
-	# visualstudio=$(dock_item "/Application/Visual Studio (Preview).app")
-
-	github=$(dock_item "/Applications/GitHub Desktop.app")
-
-	gitkraken=$(dock_item "/Applications/GitKraken.app")
-
-	alacritty=$(dock_item "/Applications/Alacritty.app")
-
-	kitty=$(dock_item "/Applications/kitty.app")
-
-	spotify=$(dock_item "/Applications/Spotify.app")
-
-	discord=$(dock_item "/Applications/Discord.app")
 
 }
 
