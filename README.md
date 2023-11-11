@@ -8,24 +8,14 @@
 </h3>
 
 
-[issues-url]: https://github.com/JamesHusband/jamos/issues
-
 <p align="center">
  <a href="https://github.com/JamesHusband/jamos/contributors"><img src="https://img.shields.io/github/contributors/JamesHusband/jamos?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
- 
- 
-[issues-shield]: https://img.shields.io/github/issues/JamesHusband/jamos.svg?style=for-the-badge
- 
-[![Issues][issues-shield]][issues-url]
-
 </p>
 
-<p align="center">
-Personal dotfiles for each of the platforms I own or have customized.
-</p>
+>A wise tech lead once told me "Lazy developers make the best developers". 
 
 
-# :white_check_mark: TODO
+## :clipboard: ToDo:
  - **Windows Configs**
  - **Firefox Profile**
  - **Korembi Profile**
@@ -39,6 +29,11 @@ Personal dotfiles for each of the platforms I own or have customized.
 
 
 ## :star2: About the Project
+>A wise tech lead once told me "Lazy developers make the best developers". 
+
+As a lazy developer myself, this rang true to me in a big way! I'm constantly trying to find way of automating my life. 
+- Personal dotfiles for each of the platforms I own or have customized.
+
 
 ## :gem: Resources
 
@@ -51,7 +46,8 @@ Resources and libraries I am using.
 - [ViRb3/poweruser](https://github.com/ViRb3/poweruser)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4NzU3OSwtMzA5NjE1NTA5LC03ODMwNj
-UxMCwtODY1NzIxMTY0LDUxODM3MzM4MywtNzM2ODI0MzQsLTE4
-MjUxODU1NTNdfQ==
+eyJoaXN0b3J5IjpbMTgyMTE2Nzc4NSwxNDYwNTUzODcwLDE5NT
+g3MzA4OSwyNjg3NTc5LC0zMDk2MTU1MDksLTc4MzA2NTEwLC04
+NjU3MjExNjQsNTE4MzczMzgzLC03MzY4MjQzNCwtMTgyNTE4NT
+U1M119
 -->
