@@ -33,7 +33,7 @@ if (Test-CommandExists scoop) {
 
     # scoops
     $scoop_apps = @(
-        'sudo', 'bat', 'btop', 'fastfetch', 'pshazz', 'vcredist',
+        'sudo', 'bat', 'btop', 'git-crypt', 'fastfetch', 'pshazz', 'vcredist',
         'secureuxtheme', '7tsp', 'archwsl', 'topgrade'
     )
 

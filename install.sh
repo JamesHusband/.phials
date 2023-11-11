@@ -29,7 +29,7 @@ shared_install
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	message "Linux detected..."
 
-	# linux_install
+	linux_install
 
 elif [[ "$OSTYPE" == "darwin"* ]]; then
 	message "Mac detected..."

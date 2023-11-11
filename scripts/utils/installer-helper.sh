@@ -194,6 +194,18 @@ function multiselect {
 	eval "$retval"='("${selected[@]}")'
 }
 
+# @description Check if repo is locked or not
+# @noargs
+git_crypt_check() {
+	if [[ "$GIT_CRYPT_LOCKED" = "False" ]]; then
+		message "Repo is currently unlocked with git-crypt. Installing decrypted file..."
+		return 0
+	else
+		message "Repo is currently locked with git-crypt. Skipping encrypted file..."
+		return 1
+	fi
+}
+
 # @description Displays archinstaller logo
 # @noargs
 logo() {

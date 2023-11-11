@@ -89,19 +89,19 @@ shared_copy_configuration() {
 	link_locations "$SHARED_HOME".functions "$HOME"/.functions
 	link_locations "$SHARED_HOME".p10k.zsh "$HOME"/.p10k.zsh
 	link_locations "$SHARED_HOME"/.config/bat "$HOME"/.config/bat
-	# # link_locations "$SHARED_HOME"/.config/btop "$HOME"/.config/btop
+	link_locations "$SHARED_HOME"/.config/btop "$HOME"/.config/btop
 	link_locations "$SHARED_HOME"/.config/fastfetch "$HOME"/.config/fastfetch
-	# link_locations "$SHARED_HOME"/.config/ohmyposh "$HOME"/.config/ohymyposh
-	# link_locations "$SHARED_HOME"/.config/topgrade.toml "$HOME"/.config/topgrade.toml
+	link_locations "$SHARED_HOME"/.config/ohmyposh "$HOME"/.config/ohymyposh
+	link_locations "$SHARED_HOME"/.config/topgrade.toml "$HOME"/.config/topgrade.toml
 
 	# link_locations "$SHARED_HOME"/.oh-my-bash "$HOME"/.oh-my-bash
 	link_locations "$SHARED_HOME"/.oh-my-bash-custom/themes/powerlevel10k "$HOME"/.oh-my-bash/custom/themes/powerlevel10k
 
-	# link_locations "$SHARED_HOME"/.bashenv "$HOME"/.bashenv
-	# link_locations "$SHARED_HOME"/.bashrc "$HOME"/.bashrc
-	# link_locations "$SHARED_HOME"/.gitconfig "$HOME"/.gitconfig
-	# link_locations "$SHARED_HOME"/.gitconfig.functions "$HOME"/.gitconfig.functions
-	# link_locations "$SHARED_HOME"/.gitignore_global "$HOME"/.gitignore_global
+	link_locations "$SHARED_HOME"/.bashenv "$HOME"/.bashenv
+	link_locations "$SHARED_HOME"/.bashrc "$HOME"/.bashrc
+	link_locations "$SHARED_HOME"/.gitconfig "$HOME"/.gitconfig
+	link_locations "$SHARED_HOME"/.gitconfig.functions "$HOME"/.gitconfig.functions
+	link_locations "$SHARED_HOME"/.gitignore_global "$HOME"/.gitignore_global
 
 
 	# git_crypt_check && link_locations "$SHARED_HOME"/.gnupg "$HOME"/.gnupg
@@ -119,14 +119,14 @@ shared_copy_configuration() {
 shared_install() {
 
 	# Backup
-	# shared_backup_existing
+	shared_backup_existing
 
 	# # Fetch dependencies
 	# initialize_submodules
 
 	# # Copy config
 	shared_copy_configuration
-	# correct_ssh_permissions
+	correct_ssh_permissions
 
 	# # Installations
 	shared_theme_install
@@ -134,5 +134,5 @@ shared_install() {
 
 shared_theme_install() {
 	install_bat_themes
-	# install_fish_plugins
+	install_fish_plugins
 }
