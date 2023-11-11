@@ -4,6 +4,7 @@
 # ░▀░▀░▀▀▀░▀░▀░▀▀░░▀▀▀░▀░▀░▀▀▀░░░▀▀▀░▀▀▀░▀░▀░▀░░░▀▀▀░▀▀▀░▀▀▀
 #
 
+
 ##
 # Variables setup
 ##
@@ -14,6 +15,11 @@ $global:SCRIPTS_DIR = $GIT_DIR + "/scripts"
 $global:GIT_CRYPT_LOCKED = $null -eq (git config --local --get filter.git-crypt.smudge 2>$null)
 $Env:PSModulePath = $Env:PSModulePath + ";$SCRIPTS_DIR/os/windows/modules"
 $global:wc = New-Object net.webclient
+
+
+$pythonScriptPath = Join-Path -Path $GIT_DIR -ChildPath "menu.py"
+py $pythonScriptPath
+exit
 
 # 
 # ░█▀█░█▀▄░█▀▀░█▀█
