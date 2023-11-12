@@ -54,6 +54,7 @@ J@mOs
 -  **Github Configs (workflows, actions)**
 
 -  **devshell (https://github.com/numtide/devshell)**
+- https://github.com/koekeishiya/yabai
 
   
   
@@ -111,9 +112,10 @@ Resources and libraries I am using.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODk0Mjk5NzcsLTE2ODc0MTMyNTQsLT
-IxNTE1OTM4LC00MTE2MDEzODgsLTMxMTQ4NjIyOSwtMjczNTE4
-NDc4LDE4MjExNjc3ODUsMTQ2MDU1Mzg3MCwxOTU4NzMwODksMj
-Y4NzU3OSwtMzA5NjE1NTA5LC03ODMwNjUxMCwtODY1NzIxMTY0
-LDUxODM3MzM4MywtNzM2ODI0MzQsLTE4MjUxODU1NTNdfQ==
+eyJoaXN0b3J5IjpbLTc0ODgzNzEwOSwtMTA4OTQyOTk3NywtMT
+Y4NzQxMzI1NCwtMjE1MTU5MzgsLTQxMTYwMTM4OCwtMzExNDg2
+MjI5LC0yNzM1MTg0NzgsMTgyMTE2Nzc4NSwxNDYwNTUzODcwLD
+E5NTg3MzA4OSwyNjg3NTc5LC0zMDk2MTU1MDksLTc4MzA2NTEw
+LC04NjU3MjExNjQsNTE4MzczMzgzLC03MzY4MjQzNCwtMTgyNT
+E4NTU1M119
 -->
