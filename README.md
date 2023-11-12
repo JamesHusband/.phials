@@ -52,10 +52,21 @@ Resources and libraries I am using.
 - [project-guidelines](https://github.com/elsewhencode/project-guidelines)
 - [managing-your-dotfiles](https://anishathalye.com/managing-your-dotfiles)
 
+
+## :gem: Dependencies
+
+```
+| -------------------------------------:|
+| Python
+| -------------------------------------:|
+| art		    | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODc0MTMyNTQsLTIxNTE1OTM4LC00MT
-E2MDEzODgsLTMxMTQ4NjIyOSwtMjczNTE4NDc4LDE4MjExNjc3
-ODUsMTQ2MDU1Mzg3MCwxOTU4NzMwODksMjY4NzU3OSwtMzA5Nj
-E1NTA5LC03ODMwNjUxMCwtODY1NzIxMTY0LDUxODM3MzM4Mywt
-NzM2ODI0MzQsLTE4MjUxODU1NTNdfQ==
+eyJoaXN0b3J5IjpbMTYyNDQ1ODQ1MSwtMTY4NzQxMzI1NCwtMj
+E1MTU5MzgsLTQxMTYwMTM4OCwtMzExNDg2MjI5LC0yNzM1MTg0
+NzgsMTgyMTE2Nzc4NSwxNDYwNTUzODcwLDE5NTg3MzA4OSwyNj
+g3NTc5LC0zMDk2MTU1MDksLTc4MzA2NTEwLC04NjU3MjExNjQs
+NTE4MzczMzgzLC03MzY4MjQzNCwtMTgyNTE4NTU1M119
 -->
