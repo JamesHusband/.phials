@@ -23,6 +23,8 @@
  - **VsCode Settings / Theming**
  - **Windows Setup (debloat, drivers)**
  - **Github Configs (workflows, actions)**
+ - **devshell (https://github.com/numtide/devshell)**
+
 
 # :notebook_with_decorative_cover: Table of Contents
 - [About the Project](#star2-about-the-project)
@@ -47,8 +49,8 @@ Resources and libraries I am using.
 - [ViRb3/poweruser](https://github.com/ViRb3/poweruser)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzUxODQ3OCwxODIxMTY3Nzg1LDE0Nj
-A1NTM4NzAsMTk1ODczMDg5LDI2ODc1NzksLTMwOTYxNTUwOSwt
-NzgzMDY1MTAsLTg2NTcyMTE2NCw1MTgzNzMzODMsLTczNjgyND
-M0LC0xODI1MTg1NTUzXX0=
+eyJoaXN0b3J5IjpbLTMxMTQ4NjIyOSwtMjczNTE4NDc4LDE4Mj
+ExNjc3ODUsMTQ2MDU1Mzg3MCwxOTU4NzMwODksMjY4NzU3OSwt
+MzA5NjE1NTA5LC03ODMwNjUxMCwtODY1NzIxMTY0LDUxODM3Mz
+M4MywtNzM2ODI0MzQsLTE4MjUxODU1NTNdfQ==
 -->
