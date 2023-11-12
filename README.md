@@ -59,14 +59,14 @@ Resources and libraries I am using.
 | -------------------------------------:|
 | Python
 | -------------------------------------:|
-| art		    | right-aligned | $1600 |
+| art		    |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDQ1ODQ1MSwtMTY4NzQxMzI1NCwtMj
-E1MTU5MzgsLTQxMTYwMTM4OCwtMzExNDg2MjI5LC0yNzM1MTg0
-NzgsMTgyMTE2Nzc4NSwxNDYwNTUzODcwLDE5NTg3MzA4OSwyNj
-g3NTc5LC0zMDk2MTU1MDksLTc4MzA2NTEwLC04NjU3MjExNjQs
-NTE4MzczMzgzLC03MzY4MjQzNCwtMTgyNTE4NTU1M119
+eyJoaXN0b3J5IjpbNzc2Njk1OTY3LC0xNjg3NDEzMjU0LC0yMT
+UxNTkzOCwtNDExNjAxMzg4LC0zMTE0ODYyMjksLTI3MzUxODQ3
+OCwxODIxMTY3Nzg1LDE0NjA1NTM4NzAsMTk1ODczMDg5LDI2OD
+c1NzksLTMwOTYxNTUwOSwtNzgzMDY1MTAsLTg2NTcyMTE2NCw1
+MTgzNzMzODMsLTczNjgyNDM0LC0xODI1MTg1NTUzXX0=
 -->
