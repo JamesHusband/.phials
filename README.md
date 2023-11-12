@@ -16,7 +16,8 @@
 
 
 ## :clipboard: ToDo:
- - **DotBot (https://github.com/anishathalye/dotbot)**
+ - DevShell
+ -  **DotBot (https://github.com/anishathalye/dotbot)**
   - **Keeb (https://github.com/the-via/releases/releases)**
  - **Windows Configs**
  - **Firefox Profile**
@@ -44,16 +45,16 @@ As a lazy developer myself, this rang true to me in a big way! I'm constantly tr
 
 Resources and libraries I am using.
 
-- [khanelinix](https://github.com/khaneliman/khanelinix)
 - [khaneliman](https://github.com/khaneliman/dotfiles)
 - [atlassian dotfiles](https://www.atlassian.com/git/tutorials/dotfiles)
 - [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
 - [ViRb3/poweruser](https://github.com/ViRb3/poweruser)
+- [project-guidelines](https://github.com/elsewhencode/project-guidelines)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTYwMTM4OCwtMzExNDg2MjI5LC0yNz
-M1MTg0NzgsMTgyMTE2Nzc4NSwxNDYwNTUzODcwLDE5NTg3MzA4
-OSwyNjg3NTc5LC0zMDk2MTU1MDksLTc4MzA2NTEwLC04NjU3Mj
-ExNjQsNTE4MzczMzgzLC03MzY4MjQzNCwtMTgyNTE4NTU1M119
-
+eyJoaXN0b3J5IjpbLTIxNTE1OTM4LC00MTE2MDEzODgsLTMxMT
+Q4NjIyOSwtMjczNTE4NDc4LDE4MjExNjc3ODUsMTQ2MDU1Mzg3
+MCwxOTU4NzMwODksMjY4NzU3OSwtMzA5NjE1NTA5LC03ODMwNj
+UxMCwtODY1NzIxMTY0LDUxODM3MzM4MywtNzM2ODI0MzQsLTE4
+MjUxODU1NTNdfQ==
 -->
