@@ -16,6 +16,8 @@
 
 
 ## :clipboard: ToDo:
+ - **DotBot (https://github.com/anishathalye/dotbot)**
+  - **Keeb (https://github.com/anishathalye/dotbot)**
  - **Windows Configs**
  - **Firefox Profile**
  - **Korembi Profile**
@@ -49,8 +51,9 @@ Resources and libraries I am using.
 - [ViRb3/poweruser](https://github.com/ViRb3/poweruser)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTQ4NjIyOSwtMjczNTE4NDc4LDE4Mj
-ExNjc3ODUsMTQ2MDU1Mzg3MCwxOTU4NzMwODksMjY4NzU3OSwt
-MzA5NjE1NTA5LC03ODMwNjUxMCwtODY1NzIxMTY0LDUxODM3Mz
-M4MywtNzM2ODI0MzQsLTE4MjUxODU1NTNdfQ==
+eyJoaXN0b3J5IjpbLTQwMjAxMzc3MiwtMzExNDg2MjI5LC0yNz
+M1MTg0NzgsMTgyMTE2Nzc4NSwxNDYwNTUzODcwLDE5NTg3MzA4
+OSwyNjg3NTc5LC0zMDk2MTU1MDksLTc4MzA2NTEwLC04NjU3Mj
+ExNjQsNTE4MzczMzgzLC03MzY4MjQzNCwtMTgyNTE4NTU1M119
+
 -->
