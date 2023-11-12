@@ -50,11 +50,12 @@ Resources and libraries I am using.
 - [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
 - [ViRb3/poweruser](https://github.com/ViRb3/poweruser)
 - [project-guidelines](https://github.com/elsewhencode/project-guidelines)
+- [managing-your-dotfiles](https://anishathalye.com/managing-your-dotfiles)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNTE1OTM4LC00MTE2MDEzODgsLTMxMT
-Q4NjIyOSwtMjczNTE4NDc4LDE4MjExNjc3ODUsMTQ2MDU1Mzg3
-MCwxOTU4NzMwODksMjY4NzU3OSwtMzA5NjE1NTA5LC03ODMwNj
-UxMCwtODY1NzIxMTY0LDUxODM3MzM4MywtNzM2ODI0MzQsLTE4
-MjUxODU1NTNdfQ==
+eyJoaXN0b3J5IjpbLTE2ODc0MTMyNTQsLTIxNTE1OTM4LC00MT
+E2MDEzODgsLTMxMTQ4NjIyOSwtMjczNTE4NDc4LDE4MjExNjc3
+ODUsMTQ2MDU1Mzg3MCwxOTU4NzMwODksMjY4NzU3OSwtMzA5Nj
+E1NTA5LC03ODMwNjUxMCwtODY1NzIxMTY0LDUxODM3MzM4Mywt
+NzM2ODI0MzQsLTE4MjUxODU1NTNdfQ==
 -->
