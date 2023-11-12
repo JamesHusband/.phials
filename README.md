@@ -69,15 +69,10 @@ J@mOs
 
 ## :star2: About the Project
 
-.
-
-  
-
->A wise tech lead once told me "Lazy developers make the best developers" As a lazy developer myself, this rang true to me in a big way! I'm constantly trying to find way of automating my life.
+A wise tech lead once told me "Lazy developers make the best developers", as a lazy developer myself, this rang true to me in a big way! I'm constantly trying to find way of automating my life.
 
 - Personal dotfiles for each of the platforms I own or have customized.
 
-  
   
 ## :gem: Dependencies
 
@@ -116,9 +111,9 @@ Resources and libraries I am using.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2MzcwODExLC0xNjg3NDEzMjU0LC0yMT
-UxNTkzOCwtNDExNjAxMzg4LC0zMTE0ODYyMjksLTI3MzUxODQ3
-OCwxODIxMTY3Nzg1LDE0NjA1NTM4NzAsMTk1ODczMDg5LDI2OD
-c1NzksLTMwOTYxNTUwOSwtNzgzMDY1MTAsLTg2NTcyMTE2NCw1
-MTgzNzMzODMsLTczNjgyNDM0LC0xODI1MTg1NTUzXX0=
+eyJoaXN0b3J5IjpbLTEwODk0Mjk5NzcsLTE2ODc0MTMyNTQsLT
+IxNTE1OTM4LC00MTE2MDEzODgsLTMxMTQ4NjIyOSwtMjczNTE4
+NDc4LDE4MjExNjc3ODUsMTQ2MDU1Mzg3MCwxOTU4NzMwODksMj
+Y4NzU3OSwtMzA5NjE1NTA5LC03ODMwNjUxMCwtODY1NzIxMTY0
+LDUxODM3MzM4MywtNzM2ODI0MzQsLTE4MjUxODU1NTNdfQ==
 -->
