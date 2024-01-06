@@ -21,7 +21,7 @@ $binary = '51,58,84,ff,43,49,6e,ff,3a,3f,5e,ff,30,34,4e,ff,26,2a,3f,ff,1d,1f,2f,
 $hexified = $binary.Split(',') | ForEach-Object { "0x$_" }
 [string]$hexified = $hexified -join ','
 Set-RegistryEntry -Key 'AccentPalette' -Type "BINARY" -Value $hexified -Path $RegPath
-
+ 
 #AccenColor Menu Key
 # "AccentColorMenu"=dword:ff4e3430
 Set-RegistryEntry -Key 'AccentColorMenu' -Type "DWORD" -Value '0xff4e3430' -Path $RegPath
@@ -99,6 +99,6 @@ Set-RegistryEntry -Key 'EnableTransparency' -Type "DWORD" -Value '0x00000001' -P
 Write-Message  -Message 'Enabling color on start and taskbar...'
 Set-RegistryEntry -Key 'ColorPrevalence' -Type "DWORD" -Value '0x00000001' -Path $RegPath
 
-# Restart explorer
-Write-Message -Type WARNING  -Message 'Restarting explorer to apply changes...'
-Stop-Process -ProcessName explorer -Force -ErrorAction SilentlyContinue
+
+Stop-Process -Name explorer -Force
+Start-Process explorer

@@ -10,6 +10,12 @@ $DOCUMENTS_PATH = Get-ItemPropertyValue -Path 'HKCU:\SOFTWARE\Microsoft\Windows\
 $USER_MODULES_PATH = "$DOCUMENTS_PATH/WindowsPowerShell/Modules/"
 
 Write-Host $DOCUMENTS_PATH
+
+# Check if the PowerShell directory exists, and if not, create it
+if (-not (Test-Path -Path $USER_MODULES_PATH)) {
+    New-Item -Path $USER_MODULES_PATH -ItemType Directory -Force
+}
+
 $ModuleList = Get-ChildItem -Path "$DOTFILES_MODULES_PATH\*"
 
 foreach ( $module in $ModuleList ) {

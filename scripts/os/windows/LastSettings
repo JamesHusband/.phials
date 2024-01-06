@@ -1,0 +1,8 @@
+RemoveApps#- Remove default selection of bloatware apps
+ClearStart#- Remove all pinned apps from the start menu for new and existing users
+DisableTelemetry#- Disable telemetry, diagnostic data & targeted ads
+DisableBing#- Disable bing search, bing AI & cortana in windows search
+DisableSuggestions#- Disable tips, tricks, suggestions and ads in start, settings, notifications and windows explorer
+DisableLockscreenTips#- Disable tips & tricks on the lockscreen
+DisableCopilot#- Disable Windows copilot
+RemoveApps#- Remove default selection of bloatware apps

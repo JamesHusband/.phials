@@ -11,8 +11,16 @@ $objShell = New-Object -ComObject Shell.Application
 $objFolder = $objShell.Namespace($FONTS)
 $username = $env:UserName
 
-# # Loop through provided input directories
-for ( $i = 0; $i -lt $args.count; $i++ ) {
+# Define the Fonts directory path
+$FONTS_PATH = "C:\Users\$username\AppData\Local\Microsoft\Windows\Fonts"
+
+# Check if the Fonts directory exists, and if not, create it
+if (-not (Test-Path -Path $FONTS_PATH)) {
+    New-Item -Path $FONTS_PATH -ItemType Directory -Force
+}
+
+# Loop through provided input directories
+for ($i = 0; $i -lt $args.count; $i++) {
     Write-Message  -Message "    Checking $($args[$i]) for fonts that need to be installed..."
     
     # Current directory being checked
@@ -26,7 +34,7 @@ for ( $i = 0; $i -lt $args.count; $i++ ) {
 
         if (!($file.name -match "pfb$")) {
             $try = $true
-            $installedFonts = @(Get-ChildItem C:\Users\$username\AppData\Local\Microsoft\Windows\Fonts | Where-Object { $_.PSIsContainer -eq $false } | Select-Object basename)
+            $installedFonts = @(Get-ChildItem $FONTS_PATH | Where-Object { $_.PSIsContainer -eq $false } | Select-Object basename)
         
             foreach ($font in $installedFonts) {
                 $font = $font -replace "_", ""
@@ -47,4 +55,3 @@ for ( $i = 0; $i -lt $args.count; $i++ ) {
         }
     }
 }
-

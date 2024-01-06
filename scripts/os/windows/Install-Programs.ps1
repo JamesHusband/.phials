@@ -33,8 +33,8 @@ if (Test-CommandExists scoop) {
 
     # scoops
     $scoop_apps = @(
-        'sudo', 'bat', 'btop', 'git-crypt', 'fastfetch', 'pshazz', 'vcredist',
-        'secureuxtheme', '7tsp', 'archwsl', 'topgrade'
+        'sudo', 'bat', 'btop', 'fastfetch', 'pshazz', 'vcredist',
+        'secureuxtheme', '7tsp', 'archwsl', 'topgrade', 'via'
     )
 
     foreach ($app in $scoop_apps) {
@@ -75,11 +75,11 @@ else {
 ##
 if (Test-CommandExists winget) {
     $winget_apps = @(
+        'Microsoft.PowerToys',
         'Microsoft.VisualStudioCode'
         'Microsoft.WindowsTerminal.Preview'
         'Microsoft.Powershell.Preview'
         'Git.Git',
-        'GitHub.GitHubDesktop',
         'Microsoft.DotNet.SDK.7',
         'Microsoft.DotNet.Runtime.7',
         'Microsoft.DotNet.DesktopRuntime.7',
@@ -87,8 +87,7 @@ if (Test-CommandExists winget) {
         'AntibodySoftware.WizTree'
         'Microsoft.Sysinternals.Autoruns'
         'Valve.Steam',
-        'CoreyButler.NVMforWindows',
-        'JesseDuffield.lazygit'
+        'Discord.Discord'
     )
 
     foreach ($app in $winget_apps) {
