@@ -3,11 +3,9 @@
 
 <h3  align="center">
 
-<img  src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b0b8e2ee-cb7a-4ca6-84cc-3fc92b7b1635/dfo81f9-234ff8bc-c669-42b4-93b8-43269a4ad4ee.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IwYjhlMmVlLWNiN2EtNGNhNi04NGNjLTNmYzkyYjdiMTYzNVwvZGZvODFmOS0yMzRmZjhiYy1jNjY5LTQyYjQtOTNiOC00MzI2OWE0YWQ0ZWUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I9pMusfLCa2kJqRsKXlxyOHL19RQ1T_R8sqZjEOufo4"  width="100"  alt="Logo"/>
-
 <br/>
 
-<img  src="https://i.ibb.co/PwDc0dP/32e27328-e247-4806-948d-5f2daf4a59b1.webp" />
+<img  src="https://i.ibb.co/PwDc0dP/32e27328-e247-4806-948d-5f2daf4a59b1.webp" width="300" />
 
 
 
