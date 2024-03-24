@@ -7,24 +7,16 @@
 
 <br/>
 
-<img  src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png"  height="30"  width="0px"/>
+<img  src="https://i.ibb.co/PwDc0dP/32e27328-e247-4806-948d-5f2daf4a59b1.webp" />
 
-J@mOs
+
 
 <img  src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png"  height="30"  width="0px"/>
 
 </h3>
 
   
-  
 
-<p  align="center">
-
-<a  href="https://github.com/JamesHusband/jamos/contributors"><img  src="https://img.shields.io/github/contributors/JamesHusband/jamos?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-
-</p>
-
-  
 
 >A wise tech lead once told me "Lazy developers make the best developers".
 
