@@ -1,90 +1,42 @@
-#
-# ░█▀▀░█░░░█▀█░█▀▄░█▀█░█░░
-# ░█░█░█░░░█░█░█▀▄░█▀█░█░░
-# ░▀▀▀░▀▀▀░▀▀▀░▀▀░░▀░▀░▀▀▀
-#
-# Dotfiles project
-**/*.tmp*
-setup.conf
-install.log
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# Folder view configuration files
+# compiled output
+dist
+tmp
+/out-tsc
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
 .DS_Store
-Desktop.ini
-
-# Thumbnail cache files
-._*
 Thumbs.db
 
-# Files that might appear on external disks
-.Spotlight-V100
-.Trashes
-
-# Compiled Python files
-**/__pycache__/*
-*.pyc
-
-# Compiled C++ files
-*.out
-
-# Application specific files
-venv
-node_modules
-.sass-cache
-
-.idea*
-
-#
-# ░█▀▀░█░█░█▀█░█▀▄░█▀▀░█▀▄
-# ░▀▀█░█▀█░█▀█░█▀▄░█▀▀░█░█
-# ░▀▀▀░▀░▀░▀░▀░▀░▀░▀▀▀░▀▀░
-#
-/dots/shared/home/.config/fish/completions
-/dots/shared/home/.config/fish/functions
-!/dots/shared/home/.config/fish/functions/bak.fish
-!/dots/shared/home/.config/fish/functions/cd.fish
-!/dots/shared/home/.config/fish/functions/clear.fish
-!/dots/shared/home/.config/fish/functions/ex.fish
-!/dots/shared/home/.config/fish/functions/git.fish
-!/dots/shared/home/.config/fish/functions/mkcd.fish
-!/dots/shared/home/.config/fish/functions/mvcd.fish
-!/dots/shared/home/.config/fish/functions/ranger.fish
-!/dots/shared/home/.config/fish/functions/fetch.fish
-!/dots/shared/home/.config/fish/functions/nixify.fish
-!/dots/shared/home/.config/fish/functions/flakify.fish
-/dots/shared/home/.config/fish/fish_variables
-/dots/shared/home/.config/fish/conf.d/
-!/dots/shared/home/.config/fish/conf.d/tide.fish
-!/dots/shared/home/.config/fish/conf.d/environment_variables.fish
-!/dots/shared/home/.config/fish/conf.d/fish_variables.fish
-/dots/shared/home/.config/ranger/config/local.conf
-/dots/shared/home/.config/spicetify/config-xpui.ini
-/dots/shared/home/.config/spicetify/Extracted/**/*
-/dots/shared/home/.config/spicetify/Backup/**/*
-/dots/shared/home/.ssh/id_rsa*
-dots/shared/home/.config/kitty/macos.kitty.conf
-dots/shared/home/.config/alacritty/local.alacritty.yml
-dots/shared/home/.local/share/fastfetch/presets/local-overrides
-dots/shared/home/.config/btop/btop.log
-dots/shared/home/.gnupg/random_seed
-
-#
-# ░█▄█░█▀█░█▀▀░█▀█░█▀▀░░
-# ░█░█░█▀█░█░░░█░█░▀▀█░░
-# ░▀░▀░▀░▀░▀▀▀░▀▀▀░▀▀▀░░
-#
-/scripts/os/mac/Brewfile.lock.json
-
-#
-# ░█░░░▀█▀░█▀█░█░█░█░█░░
-# ░█░░░░█░░█░█░█░█░▄▀▄░░
-# ░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀░░
-#
-dots/linux/hyprland/home/.config/rofi/spotlight/history.txt
-dots/linux/hyprland/home/.config/OpenRGB/logs
-
-# ░█▀█░▀█▀░█░█░█▀█░█▀▀
-# ░█░█░░█░░▄▀▄░█░█░▀▀█
-# ░▀░▀░▀▀▀░▀░▀░▀▀▀░▀▀▀
-dots/nixos/.direnv/*
-dots/shared/home/.config/github-copilot/versions.json
+.nx/cache
+.nx/workspace-data
