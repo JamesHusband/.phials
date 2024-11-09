@@ -13,6 +13,8 @@
 
 This project is a comprehensive **Dotfiles Management System** aimed at automating and managing configurations across multiple platforms. Designed with efficiency in mind, it enables you to set up, configure, and sync various settings seamlessly across environments. With this setup, managing configurations for tools, editors, and profiles becomes hassle-free, ensuring uniform setups and saving time on repetitive tasks.
 
+I’m well aware that several powerful tools and solutions already exist for managing dotfiles. Tools like GNU Stow, Dotbot, and even chezmoi offer structured and straightforward ways to handle dotfiles with ease. But, as someone who enjoys a bit of extra complexity, I couldn’t resist the urge to create my own customized system, adding my own layers of configuration and automation. There’s a unique satisfaction in building something that meets my specific preferences, **even if it’s a bit over-complicated**!
+
 ## Table of Contents
 
 - [To-Do](#to-do)
