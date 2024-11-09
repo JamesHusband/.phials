@@ -1,111 +1,53 @@
+<h1 align="center">Dotfiles Management System</h1>
 
-  
+<div align="center">
+  <img src="https://i.ibb.co/PwDc0dP/32e27328-e247-4806-948d-5f2daf4a59b1.webp" width="300" />
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+</div>
 
-<h3  align="center">
+> A wise tech lead once told me "Lazy developers make the best developers".
 
-<br/>
+---
 
-<img  src="https://i.ibb.co/PwDc0dP/32e27328-e247-4806-948d-5f2daf4a59b1.webp" width="300" />
+## Overview
 
+This project is a comprehensive **Dotfiles Management System** aimed at automating and managing configurations across multiple platforms. Designed with efficiency in mind, it enables you to set up, configure, and sync various settings seamlessly across environments. With this setup, managing configurations for tools, editors, and profiles becomes hassle-free, ensuring uniform setups and saving time on repetitive tasks.
 
+## Table of Contents
 
-<img  src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png"  height="30"  width="0px"/>
+- [To-Do](#to-do)
+- [About the Project](#about-the-project)
+- [Dependencies](#dependencies)
+- [Resources](#resources)
 
-</h3>
-
-  
-
-
->A wise tech lead once told me "Lazy developers make the best developers".
-
-  
-  
-
-## :clipboard: ToDo:
+## :clipboard: To-Do
 
 - DevShell
+- [DotBot](https://github.com/anishathalye/dotbot)
+- [Keeb](https://github.com/the-via/releases/releases)
+- Windows Configs
+- Firefox Profile
+- Korembi Profile
+- Tiling Window Managers
+- VSCode Settings / Theming
+- Windows Setup (debloat, drivers)
+- Github Configs (workflows, actions)
+- [devshell](https://github.com/numtide/devshell)
+- [Yabai](https://github.com/koekeishiya/yabai)
 
--  **DotBot (https://github.com/anishathalye/dotbot)**
+## About the Project
 
--  **Keeb (https://github.com/the-via/releases/releases)**
+A wise tech lead once told me "Lazy developers make the best developers." As a lazy developer myself, this resonates strongly. I'm always seeking ways to automate and simplify workflows. This project includes personal dotfiles and configurations tailored for each platform I work on or have customized, providing a consistent and efficient setup across different environments.
 
--  **Windows Configs**
+## Dependencies
 
--  **Firefox Profile**
+## Resources
 
--  **Korembi Profile**
-
--  **Tiling Window Managers**
-
--  **VsCode Settings / Theming**
-
--  **Windows Setup (debloat, drivers)**
-
--  **Github Configs (workflows, actions)**
-
--  **devshell (https://github.com/numtide/devshell)**
-- https://github.com/koekeishiya/yabai
-
-  
-  
-
-# :notebook_with_decorative_cover: Table of Contents
-
-- [About the Project](#star2-about-the-project)
-
-- [Resources](#gem-resources)
-
-  
-  
-
-## :star2: About the Project
-
-A wise tech lead once told me "Lazy developers make the best developers", as a lazy developer myself, this rang true to me in a big way! I'm constantly trying to find way of automating my life.
-
-- Personal dotfiles for each of the platforms I own or have customized.
-
-  
-## :gem: Dependencies
-
-```
-| Python
-| ----------------
-| console-menu     
-| ansicolors       
-| art              
-```
-
-
-## :gem: Resources
-
-  
-
-Resources and libraries I am using.
-
-  
+A collection of resources and libraries that inspire or are utilized in this project:
 
 - [khaneliman](https://github.com/khaneliman/dotfiles)
-
 - [atlassian dotfiles](https://www.atlassian.com/git/tutorials/dotfiles)
-
 - [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
-
 - [ViRb3/poweruser](https://github.com/ViRb3/poweruser)
-
 - [project-guidelines](https://github.com/elsewhencode/project-guidelines)
-
 - [managing-your-dotfiles](https://anishathalye.com/managing-your-dotfiles)
-
-  
- 
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODgzNzEwOSwtMTA4OTQyOTk3NywtMT
-Y4NzQxMzI1NCwtMjE1MTU5MzgsLTQxMTYwMTM4OCwtMzExNDg2
-MjI5LC0yNzM1MTg0NzgsMTgyMTE2Nzc4NSwxNDYwNTUzODcwLD
-E5NTg3MzA4OSwyNjg3NTc5LC0zMDk2MTU1MDksLTc4MzA2NTEw
-LC04NjU3MjExNjQsNTE4MzczMzgzLC03MzY4MjQzNCwtMTgyNT
-E4NTU1M119
--->
