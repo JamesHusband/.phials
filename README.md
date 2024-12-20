@@ -15,33 +15,21 @@ This project is a comprehensive **Dotfiles Management System** aimed at automati
 
 I’m well aware that several powerful tools and solutions already exist for managing dotfiles. Tools like GNU Stow, Dotbot, and even chezmoi offer structured and straightforward ways to handle dotfiles with ease. But, as someone who enjoys a bit of extra complexity, I couldn’t resist the urge to create my own customized system, adding my own layers of configuration and automation. There’s a unique satisfaction in building something that meets my specific preferences, **even if it’s a bit over-complicated**!
 
-## Table of Contents
-
-- [To-Do](#to-do)
-- [About the Project](#about-the-project)
-- [Dependencies](#dependencies)
-- [Resources](#resources)
-
 ## :clipboard: To-Do
 
-- DevShell
-- [DotBot](https://github.com/anishathalye/dotbot)
-- [Keeb](https://github.com/the-via/releases/releases)
+- Finish The Phials
+- Update Readme...
+
+- VIA:(https://github.com/the-via/releases/releases)
 - Windows Configs
+ - Windows Setup (debloat, drivers)
 - Firefox Profile
-- Korembi Profile
 - Tiling Window Managers
+ - Korembi Profile>?
+ - [Yabai](https://github.com/koekeishiya/yabai)
 - VSCode Settings / Theming
-- Windows Setup (debloat, drivers)
 - Github Configs (workflows, actions)
 - [devshell](https://github.com/numtide/devshell)
-- [Yabai](https://github.com/koekeishiya/yabai)
-
-## About the Project
-
-A wise tech lead once told me "Lazy developers make the best developers." As a lazy developer myself, this resonates strongly. I'm always seeking ways to automate and simplify workflows. This project includes personal dotfiles and configurations tailored for each platform I work on or have customized, providing a consistent and efficient setup across different environments.
-
-## Dependencies
 
 ## Resources
 
