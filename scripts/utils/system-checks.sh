@@ -1,14 +1,5 @@
 #!/usr/bin/env bash
-#github-action genshdoc
-#
-# ░█▀▀░█░█░█▀▀░▀█▀░█▀▀░█▄█░░░█▀▀░█░█░█▀▀░█▀▀░█░█░█▀▀
-# ░▀▀█░░█░░▀▀█░░█░░█▀▀░█░█░░░█░░░█▀█░█▀▀░█░░░█▀▄░▀▀█
-# ░▀▀▀░░▀░░▀▀▀░░▀░░▀▀▀░▀░▀░░░▀▀▀░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀
-#
-# @file System Checks
-# @brief Contains the functions used to perform various checks to safely run program
-# @stdout Output routed to install.log
-# @stderror Output routed to install.log
+# System Check Functions
 
 # @description Check if script is being ran in an arch linux distro
 # @noargs
