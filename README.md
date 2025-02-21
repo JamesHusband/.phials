@@ -5,8 +5,6 @@
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </div>
 
-> A wise tech lead once told me "Lazy developers make the best developers".
-
 ---
 
 ## Overview
